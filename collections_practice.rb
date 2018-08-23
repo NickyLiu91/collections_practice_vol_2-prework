@@ -88,7 +88,7 @@ def organize_schools(array)
       puts hash2
       array2 << [school, hash2[:location]]
     end
-    puts array2
+
   end
 
 end
