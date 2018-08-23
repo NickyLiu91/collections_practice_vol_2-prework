@@ -46,7 +46,7 @@ def count_elements(array)
 
   array4 = []
   array.uniq.each do |name|
-    array33.each do |hash|
+    array3.each do |hash|
       if hash[:name] == name
         array4 << hash
       end
