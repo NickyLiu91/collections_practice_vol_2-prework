@@ -34,15 +34,15 @@ def count_elements(array)
   current_name = ""
   count = 0
   array2.sort.each do |name|
-    if current_name == "" || current_name == name
-      # count += 1
-      puts current_name
-    else
+    # if current_name == "" || current_name == name
+    #   # count += 1
+    #   puts current_name
+    # else
       # array3 << {:name => current_name, :count => count}
       # current_name = name
       # count = 1
       puts current_name
-    end
+    # end
   end
   # array3 << {:name => current_name, :count => count}
   puts array3
