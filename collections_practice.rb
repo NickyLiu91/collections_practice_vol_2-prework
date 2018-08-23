@@ -69,3 +69,13 @@ def merge_data(data1, data2)
   end
   data1
 end
+
+def find_cool(array)
+  array2 = []
+  array.each do |hash|
+    if hash[:temperature] == "cool"
+      array2 << hash
+    end
+  end
+  array2
+end
