@@ -86,6 +86,12 @@ def organize_schools(hash)
   hash.each do |school, location|
     array << [school, location[:location]]
   end
-  puts array
+  places_array = []
+  array.each do |array2|
+    if !places_array.include?array2[1]
+      places_array >> array2[1]
+    end
+  end
 
+  puts places_array
 end
