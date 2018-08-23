@@ -40,9 +40,17 @@ def count_elements(array)
       array3 << {:name => current_name, :count => count}
       current_name = name
       count = 1
-      puts current_name
     end
   end
   array3 << {:name => current_name, :count => count}
-  puts array3
+
+  array4 = []
+  array.uniq.each do |name|
+    array33.each do |hash|
+      if hash[:name] == name
+        array4 << hash
+      end
+    end
+  end
+  array4
 end
