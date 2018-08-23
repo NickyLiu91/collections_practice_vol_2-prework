@@ -84,7 +84,7 @@ def organize_schools(array)
   puts array
   array2 = []
   array.each do |hash|
-    puts hash
+
     hash.each do |school, hash2|
       puts hash2
 
