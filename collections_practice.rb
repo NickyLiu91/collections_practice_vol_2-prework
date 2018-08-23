@@ -36,7 +36,6 @@ def count_elements(array)
     if current_name == "" || current_name == name
       current_name = name
       count += 1
-      puts current_name
     else
       array3 << {:name => current_name, :count => count}
       current_name = name
@@ -44,6 +43,6 @@ def count_elements(array)
       puts current_name
     end
   end
-  # array3 << {:name => current_name, :count => count}
+  array3 << {:name => current_name, :count => count}
   puts array3
 end
