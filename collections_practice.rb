@@ -81,7 +81,7 @@ def find_cool(array)
 end
 
 def organize_schools(array)
-  puts array2
+  puts array
   array2 = []
   array.each do |hash|
     hash.each do |school, hash2|
