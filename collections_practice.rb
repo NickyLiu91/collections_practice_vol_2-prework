@@ -54,3 +54,18 @@ def count_elements(array)
   end
   array4
 end
+
+def merge_data(data1, data2)
+  data1.each do |hash|
+    data2.each do |hash2|
+      hash2.each do |name, info|
+        if name == hash[:first_name]
+          info.each do |tag, result|
+            hash[tag] = result
+          end
+        end
+      end
+    end
+  end
+  data1
+end
