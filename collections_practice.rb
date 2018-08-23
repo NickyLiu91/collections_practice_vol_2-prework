@@ -28,6 +28,7 @@ def count_elements(array)
   array.each do |hash|
     array2 << hash[:name]
   end
+  puts array2
 
   array3 = []
   current_name = ""
