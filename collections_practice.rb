@@ -92,6 +92,5 @@ def organize_schools(hash)
       places_array >> array2[1]
     end
   end
-
   puts places_array
 end
