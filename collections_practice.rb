@@ -83,6 +83,7 @@ end
 def organize_schools(array)
   array2 = []
   array.each do |hash|
+    puts hash
     hash.each do |school, hash2|
       hash2.each do |key, location|
         array2 << [school, location]
