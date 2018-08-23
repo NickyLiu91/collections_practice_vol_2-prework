@@ -52,5 +52,5 @@ def count_elements(array)
       end
     end
   end
-  puts array4
+  array4
 end
