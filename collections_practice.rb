@@ -96,8 +96,15 @@ def organize_schools(hash)
   end
 
   little_array = []
+  final_array = []
   places_array.each do |place|
-
+    array.each do |sub_array|
+      if sub_array[1] == place
+        little_array << sub_array[0]
+      end
+    end
+    final_array << {sub_array[0] => little_array}
+    little_array = []
   end
 
 end
