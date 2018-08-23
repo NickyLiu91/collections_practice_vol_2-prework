@@ -40,7 +40,7 @@ def count_elements(array)
       # array3 << {:name => current_name, :count => count}
       # current_name = name
       # count = 1
-      puts current_name
+      puts name
     # end
   end
   # array3 << {:name => current_name, :count => count}
