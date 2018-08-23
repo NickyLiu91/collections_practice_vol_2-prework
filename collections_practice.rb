@@ -88,7 +88,7 @@ def organize_schools(hash)
   end
   places_array = []
   array.each do |array2|
-    if !places_array.include?array2[1]
+    if !places_array.include?(array2[1])
       places_array >> array2[1]
     end
   end
