@@ -79,3 +79,7 @@ def find_cool(array)
   end
   array2
 end
+
+def organize_schools(array)
+  puts array
+end
