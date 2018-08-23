@@ -103,7 +103,7 @@ def organize_schools(hash)
         little_array << sub_array[0]
       end
     end
-    final_array << place => little_array
+    final_array << {place => little_array}
     little_array = []
   end
   final_array
